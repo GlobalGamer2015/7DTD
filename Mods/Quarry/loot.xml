@@ -1,0 +1,374 @@
+<lootgroup name="miningClayLump" count="1">
+	<item name="clayLump" count="250" prob="5"/>
+	<item name="clayLump" count="300" prob="1.90"/>
+	<item name="clayLump" count="350" prob="1.70"/>
+	<item name="clayLump" count="400" prob="1.60"/>
+	<item name="clayLump" count="450" prob="1.30"/>
+	<item name="clayLump" count="500" prob="1.15"/>
+	<item name="clayLump" count="550" prob="0.95"/>
+	<item name="clayLump" count="600" prob="0.90"/>
+	<item name="clayLump" count="650" prob="0.85"/>
+	<item name="clayLump" count="700" prob="0.80"/>
+	<item name="clayLump" count="750" prob="0.75"/>
+	<item name="clayLump" count="800" prob="0.70"/>
+	<item name="clayLump" count="850" prob="0.65"/>
+	<item name="clayLump" count="900" prob="0.60"/>
+	<item name="clayLump" count="950" prob="0.55"/>
+	<item name="clayLump" count="1000" prob="0.50"/>
+	<item name="clayLump" count="1250" prob="0.45"/>
+	<item name="clayLump" count="1500" prob="0.40"/>
+	<item name="clayLump" count="1750" prob="0.35"/>
+	<item name="clayLump" count="2000" prob="0.30"/>
+	<item name="clayLump" count="2250" prob="0.25"/>
+	<item name="clayLump" count="2500" prob="0.20"/>
+	<item name="clayLump" count="2750" prob="0.15"/>
+	<item name="clayLump" count="3000" prob="0.10"/>
+	<item name="clayLump" count="6000" prob="0.05"/>
+</lootgroup>
+<lootgroup name="miningCrushedSand" count="1">
+	<item name="crushedSand" count="250" prob="5"/>
+	<item name="crushedSand" count="300" prob="1.90"/>
+	<item name="crushedSand" count="350" prob="1.70"/>
+	<item name="crushedSand" count="400" prob="1.60"/>
+	<item name="crushedSand" count="450" prob="1.30"/>
+	<item name="crushedSand" count="500" prob="1.15"/>
+	<item name="crushedSand" count="550" prob="0.95"/>
+	<item name="crushedSand" count="600" prob="0.90"/>
+	<item name="crushedSand" count="650" prob="0.85"/>
+	<item name="crushedSand" count="700" prob="0.80"/>
+	<item name="crushedSand" count="750" prob="0.75"/>
+	<item name="crushedSand" count="800" prob="0.70"/>
+	<item name="crushedSand" count="850" prob="0.65"/>
+	<item name="crushedSand" count="900" prob="0.60"/>
+	<item name="crushedSand" count="950" prob="0.55"/>
+	<item name="crushedSand" count="1000" prob="0.50"/>
+	<item name="crushedSand" count="1250" prob="0.45"/>
+	<item name="crushedSand" count="1500" prob="0.40"/>
+	<item name="crushedSand" count="1750" prob="0.35"/>
+	<item name="crushedSand" count="2000" prob="0.30"/>
+	<item name="crushedSand" count="2250" prob="0.25"/>
+	<item name="crushedSand" count="2500" prob="0.20"/>
+	<item name="crushedSand" count="2750" prob="0.15"/>
+	<item name="crushedSand" count="3000" prob="0.10"/>
+	<item name="crushedSand" count="6000" prob="0.05"/>
+</lootgroup>
+<lootgroup name="miningScrapBrass" count="1">
+	<item name="scrapBrass" count="250" prob="5"/>
+	<item name="scrapBrass" count="300" prob="1.90"/>
+	<item name="scrapBrass" count="350" prob="1.70"/>
+	<item name="scrapBrass" count="400" prob="1.60"/>
+	<item name="scrapBrass" count="450" prob="1.30"/>
+	<item name="scrapBrass" count="500" prob="1.15"/>
+	<item name="scrapBrass" count="550" prob="0.95"/>
+	<item name="scrapBrass" count="600" prob="0.90"/>
+	<item name="scrapBrass" count="650" prob="0.85"/>
+	<item name="scrapBrass" count="700" prob="0.80"/>
+	<item name="scrapBrass" count="750" prob="0.75"/>
+	<item name="scrapBrass" count="800" prob="0.70"/>
+	<item name="scrapBrass" count="850" prob="0.65"/>
+	<item name="scrapBrass" count="900" prob="0.60"/>
+	<item name="scrapBrass" count="950" prob="0.55"/>
+	<item name="scrapBrass" count="1000" prob="0.50"/>
+	<item name="scrapBrass" count="1250" prob="0.45"/>
+	<item name="scrapBrass" count="1500" prob="0.40"/>
+	<item name="scrapBrass" count="1750" prob="0.35"/>
+	<item name="scrapBrass" count="2000" prob="0.30"/>
+	<item name="scrapBrass" count="2250" prob="0.25"/>
+	<item name="scrapBrass" count="2500" prob="0.20"/>
+	<item name="scrapBrass" count="2750" prob="0.15"/>
+	<item name="scrapBrass" count="3000" prob="0.10"/>
+	<item name="scrapBrass" count="6000" prob="0.05"/>
+</lootgroup>
+<lootgroup name="miningScrapLead" count="1">
+	<item name="scrapLead" count="250" prob="5"/>
+	<item name="scrapLead" count="300" prob="1.90"/>
+	<item name="scrapLead" count="350" prob="1.70"/>
+	<item name="scrapLead" count="400" prob="1.60"/>
+	<item name="scrapLead" count="450" prob="1.30"/>
+	<item name="scrapLead" count="500" prob="1.15"/>
+	<item name="scrapLead" count="550" prob="0.95"/>
+	<item name="scrapLead" count="600" prob="0.90"/>
+	<item name="scrapLead" count="650" prob="0.85"/>
+	<item name="scrapLead" count="700" prob="0.80"/>
+	<item name="scrapLead" count="750" prob="0.75"/>
+	<item name="scrapLead" count="800" prob="0.70"/>
+	<item name="scrapLead" count="850" prob="0.65"/>
+	<item name="scrapLead" count="900" prob="0.60"/>
+	<item name="scrapLead" count="950" prob="0.55"/>
+	<item name="scrapLead" count="1000" prob="0.50"/>
+	<item name="scrapLead" count="1250" prob="0.45"/>
+	<item name="scrapLead" count="1500" prob="0.40"/>
+	<item name="scrapLead" count="1750" prob="0.35"/>
+	<item name="scrapLead" count="2000" prob="0.30"/>
+	<item name="scrapLead" count="2250" prob="0.25"/>
+	<item name="scrapLead" count="2500" prob="0.20"/>
+	<item name="scrapLead" count="2750" prob="0.15"/>
+	<item name="scrapLead" count="3000" prob="0.10"/>
+	<item name="scrapLead" count="6000" prob="0.05"/>
+</lootgroup>
+<lootgroup name="miningDirtFragment" count="1">
+	<item name="dirtFragment" count="250" prob="5"/>
+	<item name="dirtFragment" count="300" prob="1.90"/>
+	<item name="dirtFragment" count="350" prob="1.70"/>
+	<item name="dirtFragment" count="400" prob="1.60"/>
+	<item name="dirtFragment" count="450" prob="1.30"/>
+	<item name="dirtFragment" count="500" prob="1.15"/>
+	<item name="dirtFragment" count="550" prob="0.95"/>
+	<item name="dirtFragment" count="600" prob="0.90"/>
+	<item name="dirtFragment" count="650" prob="0.85"/>
+	<item name="dirtFragment" count="700" prob="0.80"/>
+	<item name="dirtFragment" count="750" prob="0.75"/>
+	<item name="dirtFragment" count="800" prob="0.70"/>
+	<item name="dirtFragment" count="850" prob="0.65"/>
+	<item name="dirtFragment" count="900" prob="0.60"/>
+	<item name="dirtFragment" count="950" prob="0.55"/>
+	<item name="dirtFragment" count="1000" prob="0.50"/>
+	<item name="dirtFragment" count="1250" prob="0.45"/>
+	<item name="dirtFragment" count="1500" prob="0.40"/>
+	<item name="dirtFragment" count="1750" prob="0.35"/>
+	<item name="dirtFragment" count="2000" prob="0.30"/>
+	<item name="dirtFragment" count="2250" prob="0.25"/>
+	<item name="dirtFragment" count="2500" prob="0.20"/>
+	<item name="dirtFragment" count="2750" prob="0.15"/>
+	<item name="dirtFragment" count="3000" prob="0.10"/>
+	<item name="dirtFragment" count="6000" prob="0.05"/>
+</lootgroup>
+<lootgroup name="miningScrapIron" count="1">
+	<item name="scrapIron" count="250" prob="5"/>
+	<item name="scrapIron" count="300" prob="1.90"/>
+	<item name="scrapIron" count="350" prob="1.70"/>
+	<item name="scrapIron" count="400" prob="1.60"/>
+	<item name="scrapIron" count="450" prob="1.30"/>
+	<item name="scrapIron" count="500" prob="1.15"/>
+	<item name="scrapIron" count="550" prob="0.95"/>
+	<item name="scrapIron" count="600" prob="0.90"/>
+	<item name="scrapIron" count="650" prob="0.85"/>
+	<item name="scrapIron" count="700" prob="0.80"/>
+	<item name="scrapIron" count="750" prob="0.75"/>
+	<item name="scrapIron" count="800" prob="0.70"/>
+	<item name="scrapIron" count="850" prob="0.65"/>
+	<item name="scrapIron" count="900" prob="0.60"/>
+	<item name="scrapIron" count="950" prob="0.55"/>
+	<item name="scrapIron" count="1000" prob="0.50"/>
+	<item name="scrapIron" count="1250" prob="0.45"/>
+	<item name="scrapIron" count="1500" prob="0.40"/>
+	<item name="scrapIron" count="1750" prob="0.35"/>
+	<item name="scrapIron" count="2000" prob="0.30"/>
+	<item name="scrapIron" count="2250" prob="0.25"/>
+	<item name="scrapIron" count="2500" prob="0.20"/>
+	<item name="scrapIron" count="2750" prob="0.15"/>
+	<item name="scrapIron" count="3000" prob="0.10"/>
+	<item name="scrapIron" count="6000" prob="0.05"/>
+</lootgroup>
+<lootgroup name="miningRockSmall" count="1">
+	<item name="rockSmall" count="250" prob="5"/>
+	<item name="rockSmall" count="300" prob="1.90"/>
+	<item name="rockSmall" count="350" prob="1.70"/>
+	<item name="rockSmall" count="400" prob="1.60"/>
+	<item name="rockSmall" count="450" prob="1.30"/>
+	<item name="rockSmall" count="500" prob="1.15"/>
+	<item name="rockSmall" count="550" prob="0.95"/>
+	<item name="rockSmall" count="600" prob="0.90"/>
+	<item name="rockSmall" count="650" prob="0.85"/>
+	<item name="rockSmall" count="700" prob="0.80"/>
+	<item name="rockSmall" count="750" prob="0.75"/>
+	<item name="rockSmall" count="800" prob="0.70"/>
+	<item name="rockSmall" count="850" prob="0.65"/>
+	<item name="rockSmall" count="900" prob="0.60"/>
+	<item name="rockSmall" count="950" prob="0.55"/>
+	<item name="rockSmall" count="1000" prob="0.50"/>
+	<item name="rockSmall" count="1250" prob="0.45"/>
+	<item name="rockSmall" count="1500" prob="0.40"/>
+	<item name="rockSmall" count="1750" prob="0.35"/>
+	<item name="rockSmall" count="2000" prob="0.30"/>
+	<item name="rockSmall" count="2250" prob="0.25"/>
+	<item name="rockSmall" count="2500" prob="0.20"/>
+	<item name="rockSmall" count="2750" prob="0.15"/>
+	<item name="rockSmall" count="3000" prob="0.10"/>
+	<item name="rockSmall" count="6000" prob="0.05"/>
+</lootgroup>
+<lootgroup name="miningCoal" count="1">
+	<item name="coal" count="250" prob="5"/>
+	<item name="coal" count="300" prob="1.90"/>
+	<item name="coal" count="350" prob="1.70"/>
+	<item name="coal" count="400" prob="1.60"/>
+	<item name="coal" count="450" prob="1.30"/>
+	<item name="coal" count="500" prob="1.15"/>
+	<item name="coal" count="550" prob="0.95"/>
+	<item name="coal" count="600" prob="0.90"/>
+	<item name="coal" count="650" prob="0.85"/>
+	<item name="coal" count="700" prob="0.80"/>
+	<item name="coal" count="750" prob="0.75"/>
+	<item name="coal" count="800" prob="0.70"/>
+	<item name="coal" count="850" prob="0.65"/>
+	<item name="coal" count="900" prob="0.60"/>
+	<item name="coal" count="950" prob="0.55"/>
+	<item name="coal" count="1000" prob="0.50"/>
+	<item name="coal" count="1250" prob="0.45"/>
+	<item name="coal" count="1500" prob="0.40"/>
+	<item name="coal" count="1750" prob="0.35"/>
+	<item name="coal" count="2000" prob="0.30"/>
+	<item name="coal" count="2250" prob="0.25"/>
+	<item name="coal" count="2500" prob="0.20"/>
+	<item name="coal" count="2750" prob="0.15"/>
+	<item name="coal" count="3000" prob="0.10"/>
+	<item name="coal" count="6000" prob="0.05"/>
+</lootgroup>
+<lootgroup name="miningOilShale" count="1">
+	<item name="oilShale" count="250" prob="5"/>
+	<item name="oilShale" count="300" prob="1.90"/>
+	<item name="oilShale" count="350" prob="1.70"/>
+	<item name="oilShale" count="400" prob="1.60"/>
+	<item name="oilShale" count="450" prob="1.30"/>
+	<item name="oilShale" count="500" prob="1.15"/>
+	<item name="oilShale" count="550" prob="0.95"/>
+	<item name="oilShale" count="600" prob="0.90"/>
+	<item name="oilShale" count="650" prob="0.85"/>
+	<item name="oilShale" count="700" prob="0.80"/>
+	<item name="oilShale" count="750" prob="0.75"/>
+	<item name="oilShale" count="800" prob="0.70"/>
+	<item name="oilShale" count="850" prob="0.65"/>
+	<item name="oilShale" count="900" prob="0.60"/>
+	<item name="oilShale" count="950" prob="0.55"/>
+	<item name="oilShale" count="1000" prob="0.50"/>
+	<item name="oilShale" count="1250" prob="0.45"/>
+	<item name="oilShale" count="1500" prob="0.40"/>
+	<item name="oilShale" count="1750" prob="0.35"/>
+	<item name="oilShale" count="2000" prob="0.30"/>
+	<item name="oilShale" count="2250" prob="0.25"/>
+	<item name="oilShale" count="2500" prob="0.20"/>
+	<item name="oilShale" count="2750" prob="0.15"/>
+	<item name="oilShale" count="3000" prob="0.10"/>
+	<item name="oilShale" count="6000" prob="0.05"/>
+</lootgroup>
+<lootgroup name="miningPotassiumNitratePowder" count="1">
+	<item name="potassiumNitratePowder" count="250" prob="5"/>
+	<item name="potassiumNitratePowder" count="300" prob="1.90"/>
+	<item name="potassiumNitratePowder" count="350" prob="1.70"/>
+	<item name="potassiumNitratePowder" count="400" prob="1.60"/>
+	<item name="potassiumNitratePowder" count="450" prob="1.30"/>
+	<item name="potassiumNitratePowder" count="500" prob="1.15"/>
+	<item name="potassiumNitratePowder" count="550" prob="0.95"/>
+	<item name="potassiumNitratePowder" count="600" prob="0.90"/>
+	<item name="potassiumNitratePowder" count="650" prob="0.85"/>
+	<item name="potassiumNitratePowder" count="700" prob="0.80"/>
+	<item name="potassiumNitratePowder" count="750" prob="0.75"/>
+	<item name="potassiumNitratePowder" count="800" prob="0.70"/>
+	<item name="potassiumNitratePowder" count="850" prob="0.65"/>
+	<item name="potassiumNitratePowder" count="900" prob="0.60"/>
+	<item name="potassiumNitratePowder" count="950" prob="0.55"/>
+	<item name="potassiumNitratePowder" count="1000" prob="0.50"/>
+	<item name="potassiumNitratePowder" count="1250" prob="0.45"/>
+	<item name="potassiumNitratePowder" count="1500" prob="0.40"/>
+	<item name="potassiumNitratePowder" count="1750" prob="0.35"/>
+	<item name="potassiumNitratePowder" count="2000" prob="0.30"/>
+	<item name="potassiumNitratePowder" count="2250" prob="0.25"/>
+	<item name="potassiumNitratePowder" count="2500" prob="0.20"/>
+	<item name="potassiumNitratePowder" count="2750" prob="0.15"/>
+	<item name="potassiumNitratePowder" count="3000" prob="0.10"/>
+	<item name="potassiumNitratePowder" count="6000" prob="0.05"/>
+</lootgroup>
+<lootgroup name="miningSilverNugget" count="1">
+	<item name="silverNugget" count="0" prob="1.00000"/>
+	<item name="silverNugget" count="1" prob="0.00030"/>
+	<item name="silverNugget" count="2" prob="0.00029"/>
+	<item name="silverNugget" count="3" prob="0.00028"/>
+	<item name="silverNugget" count="4" prob="0.00027"/>
+	<item name="silverNugget" count="5" prob="0.00026"/>
+</lootgroup>
+<lootgroup name="miningGoldNugget" count="1">
+	<item name="goldNugget" count="0" prob="1.00000"/>
+	<item name="goldNugget" count="1" prob="0.00020"/>
+	<item name="goldNugget" count="2" prob="0.00019"/>
+	<item name="goldNugget" count="3" prob="0.00018"/>
+	<item name="goldNugget" count="4" prob="0.00017"/>
+	<item name="goldNugget" count="5" prob="0.00016"/>
+</lootgroup>
+<lootgroup name="miningRawDiamond" count="1">
+	<item name="rawDiamond" count="0" prob="1.00000"/>
+	<item name="rawDiamond" count="1" prob="0.00010"/>
+	<item name="rawDiamond" count="2" prob="0.00009"/>
+	<item name="rawDiamond" count="3" prob="0.00008"/>
+	<item name="rawDiamond" count="4" prob="0.00007"/>
+	<item name="rawDiamond" count="5" prob="0.00006"/>
+</lootgroup>
+<lootcontainer id="231" size="5,3" count="13" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="classTemplate">
+	<item group="miningClayLump"/>
+	<item group="miningCrushedSand"/>
+	<item group="miningScrapBrass"/>
+	<item group="miningScrapLead"/>
+	<item group="miningDirtFragment"/>
+	<item group="miningScrapIron"/>
+	<item group="miningRockSmall"/>
+	<item group="miningCoal"/>
+	<item group="miningOilShale"/>
+	<item group="miningPotassiumNitratePowder"/>
+	<item group="miningSilverNugget"/>
+	<item group="miningGoldNugget"/>
+	<item group="miningRawDiamond"/>
+</lootcontainer>
+<lootcontainer id="232" size="2,2" count="4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="classTemplate">
+	<item group="miningClayLump"/>
+	<item group="miningSilverNugget"/>
+	<item group="miningGoldNugget"/>
+	<item group="miningRawDiamond"/>
+</lootcontainer>
+<lootcontainer id="233" size="2,2" count="4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="classTemplate">
+    <item group="miningCrushedSand"/>
+	<item group="miningSilverNugget"/>
+	<item group="miningGoldNugget"/>
+	<item group="miningRawDiamond"/>
+</lootcontainer>
+<lootcontainer id="234" size="2,2" count="4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="classTemplate">
+    <item group="miningScrapBrass"/>
+	<item group="miningSilverNugget"/>
+	<item group="miningGoldNugget"/>
+	<item group="miningRawDiamond"/>
+</lootcontainer>
+<lootcontainer id="235" size="2,2" count="4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="classTemplate">
+    <item group="miningScrapLead"/>
+	<item group="miningSilverNugget"/>
+	<item group="miningGoldNugget"/>
+	<item group="miningRawDiamond"/>
+</lootcontainer>
+<lootcontainer id="236" size="2,2" count="4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="classTemplate">
+    <item group="miningDirtFragment"/>
+	<item group="miningSilverNugget"/>
+	<item group="miningGoldNugget"/>
+	<item group="miningRawDiamond"/>
+</lootcontainer>
+<lootcontainer id="237" size="2,2" count="4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="classTemplate">
+    <item group="miningScrapIron"/>
+	<item group="miningSilverNugget"/>
+	<item group="miningGoldNugget"/>
+	<item group="miningRawDiamond"/>
+</lootcontainer>
+<lootcontainer id="238" size="2,2" count="4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="classTemplate">
+    <item group="miningRockSmall"/>
+	<item group="miningSilverNugget"/>
+	<item group="miningGoldNugget"/>
+	<item group="miningRawDiamond"/>
+</lootcontainer>
+<lootcontainer id="239" size="2,2" count="4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="classTemplate">
+    <item group="miningCoal"/>
+	<item group="miningSilverNugget"/>
+	<item group="miningGoldNugget"/>
+	<item group="miningRawDiamond"/>
+</lootcontainer>
+<lootcontainer id="240" size="2,2" count="4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="classTemplate">
+    <item group="miningOilShale"/>
+	<item group="miningSilverNugget"/>
+	<item group="miningGoldNugget"/>
+	<item group="miningRawDiamond"/>
+</lootcontainer>
+<lootcontainer id="241" size="2,2" count="4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="classTemplate">
+    <item group="miningPotassiumNitratePowder"/>
+	<item group="miningSilverNugget"/>
+	<item group="miningGoldNugget"/>
+	<item group="miningRawDiamond"/>
+</lootcontainer>
+<lootcontainer id="242" size="1,3" count="3" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="classTemplate">
+	<item group="miningSilverNugget"/>
+	<item group="miningGoldNugget"/>
+	<item group="miningRawDiamond"/>
+</lootcontainer>
