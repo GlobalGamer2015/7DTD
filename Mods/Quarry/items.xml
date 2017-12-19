@@ -1,0 +1,99 @@
+<item id="0000" name="Compressed Clay">
+	<property name="CustomIcon" value="clayLump"/>
+	<property name="Meshfile" value="Items/Crafting/clay"/>
+	<property name="Material" value="clay"/>
+	<property name="Weight" value="5"/>
+	<property name="HoldType" value="21"/>
+	<property name="Stacknumber" value="1"/> <!-- STK resource -->
+	<property name="Group" value="Resources"/>
+</item>
+<item id="0000" name="Compressed Crushed Sand">
+	<property name="CustomIcon" value="crushedSand"/>
+	<property name="Meshfile" value="Items/Crafting/clay"/>
+	<property name="Material" value="clay"/>
+	<property name="Weight" value="5"/>
+	<property name="HoldType" value="21"/>
+	<property name="Stacknumber" value="1"/> <!-- STK resource -->
+	<property name="Group" value="Resources"/>
+</item>
+<item id="0000" name="Compressed Brass">
+	<property name="CustomIcon" value="scrapBrass"/>
+	<property name="Meshfile" value="Items/Crafting/clay"/>
+	<property name="Material" value="clay"/>
+	<property name="Weight" value="5"/>
+	<property name="HoldType" value="21"/>
+	<property name="Stacknumber" value="1"/> <!-- STK resource -->
+	<property name="Group" value="Resources"/>
+</item>
+<item id="0000" name="Compressed Lead">
+	<property name="CustomIcon" value="scrapLead"/>
+	<property name="Meshfile" value="Items/Crafting/clay"/>
+	<property name="Material" value="clay"/>
+	<property name="Weight" value="5"/>
+	<property name="HoldType" value="21"/>
+	<property name="Stacknumber" value="1"/> <!-- STK resource -->
+	<property name="Group" value="Resources"/>
+</item>
+<item id="0000" name="Compressed Dirt Fragment">
+	<property name="CustomIcon" value="fertileDirt"/>
+	<property name="Meshfile" value="Items/Crafting/clay"/>
+	<property name="Material" value="clay"/>
+	<property name="Weight" value="5"/>
+	<property name="HoldType" value="21"/>
+	<property name="Stacknumber" value="1"/> <!-- STK resource -->
+	<property name="Group" value="Resources"/>
+</item>
+<item id="0000" name="Compressed Iron">
+	<property name="CustomIcon" value="scrapIron"/>
+	<property name="Meshfile" value="Items/Crafting/clay"/>
+	<property name="Material" value="clay"/>
+	<property name="Weight" value="5"/>
+	<property name="HoldType" value="21"/>
+	<property name="Stacknumber" value="1"/> <!-- STK resource -->
+	<property name="Group" value="Resources"/>
+</item>
+<item id="0000" name="Compressed Stone">
+	<property name="CustomIcon" value="rockSmall"/>
+	<property name="Meshfile" value="Items/Crafting/clay"/>
+	<property name="Material" value="clay"/>
+	<property name="Weight" value="5"/>
+	<property name="HoldType" value="21"/>
+	<property name="Stacknumber" value="1"/> <!-- STK resource -->
+	<property name="Group" value="Resources"/>
+</item>
+<item id="0000" name="Compressed Coal">
+	<property name="CustomIcon" value="coal"/>
+	<property name="Meshfile" value="Items/Crafting/clay"/>
+	<property name="Material" value="clay"/>
+	<property name="Weight" value="5"/>
+	<property name="HoldType" value="21"/>
+	<property name="Stacknumber" value="1"/> <!-- STK resource -->
+	<property name="Group" value="Resources"/>
+</item>
+<item id="0000" name="Compressed Shale">
+	<property name="CustomIcon" value="oilShale"/>
+	<property name="Meshfile" value="Items/Crafting/clay"/>
+	<property name="Material" value="clay"/>
+	<property name="Weight" value="5"/>
+	<property name="HoldType" value="21"/>
+	<property name="Stacknumber" value="1"/> <!-- STK resource -->
+	<property name="Group" value="Resources"/>
+</item>
+<item id="0000" name="Compressed Nitrate">
+	<property name="CustomIcon" value="potassiumNitratePowder"/>
+	<property name="Meshfile" value="Items/Crafting/clay"/>
+	<property name="Material" value="clay"/>
+	<property name="Weight" value="5"/>
+	<property name="HoldType" value="21"/>
+	<property name="Stacknumber" value="1"/> <!-- STK resource -->
+	<property name="Group" value="Resources"/>
+</item>
+<item id="0000" name="Compressed Resources">
+	<property name="CustomIcon" value="cntShippingCrateShamway"/>
+	<property name="Meshfile" value="Items/Crafting/clay"/>
+	<property name="Material" value="clay"/>
+	<property name="Weight" value="5"/>
+	<property name="HoldType" value="21"/>
+	<property name="Stacknumber" value="1"/> <!-- STK resource -->
+	<property name="Group" value="Resources"/>
+</item>
