@@ -1,0 +1,87 @@
+<recipe name="workstation Quarry" craft_area="workbench" craft_time="300">
+	<ingredient name="scrapBrass" count="1000" />
+	<ingredient name="scrapLead" count="1000" />
+	<ingredient name="scrapIron" count="1000" />
+	<ingredient name="rockSmall" count="1000" />
+	<ingredient name="dirtFragment" count="1000" />
+</recipe>
+<recipe name="QuarryPlatform Resources" craft_area="workstation Quarry" craft_tool="Compressed Resources" craft_time="1800">
+	<ingredient name="clayLump" count="6000" />
+	<ingredient name="scrapBrass" count="6000" />
+	<ingredient name="dirtFragment" count="6000" />
+	<ingredient name="rockSmall" count="6000" />
+	<ingredient name="oilShale" count="6000" />
+</recipe>
+<recipe name="QuarryPlatform Clay" craft_area="workstation Quarry" craft_tool="Compressed Clay" craft_time="1800">
+	<ingredient name="clayLump" count="6000" />
+</recipe>
+<recipe name="QuarryPlatform Sand" craft_area="workstation Quarry" craft_tool="Compressed Crushed Sand" craft_time="1800">
+	<ingredient name="crushedSand" count="6000" />
+</recipe>
+<recipe name="QuarryPlatform Brass" craft_area="workstation Quarry" craft_tool="Compressed Brass" craft_time="1800">
+	<ingredient name="scrapBrass" count="6000" />
+</recipe>
+<recipe name="QuarryPlatform Lead" craft_area="workstation Quarry" craft_tool="Compressed Lead" craft_time="1800">
+	<ingredient name="scrapLead" count="6000" />
+</recipe>
+<recipe name="QuarryPlatform Dirt" craft_area="workstation Quarry" craft_tool="Compressed Dirt Fragment" craft_time="1800">
+	<ingredient name="dirtFragment" count="6000" />
+</recipe>
+<recipe name="QuarryPlatform Iron" craft_area="workstation Quarry" craft_tool="Compressed Iron" craft_time="1800">
+	<ingredient name="scrapIron" count="6000" />
+</recipe>
+<recipe name="QuarryPlatform Stone" craft_area="workstation Quarry" craft_tool="Compressed Stone" craft_time="1800">
+	<ingredient name="rockSmall" count="6000" />
+</recipe>
+<recipe name="QuarryPlatform Coal" craft_area="workstation Quarry" craft_tool="Compressed Coal" craft_time="1800">
+	<ingredient name="coal" count="6000" />
+</recipe>
+<recipe name="QuarryPlatform Shale" craft_area="workstation Quarry" craft_tool="Compressed Shale" craft_time="1800">
+	<ingredient name="oilShale" count="6000" />
+</recipe>
+<recipe name="QuarryPlatform Nitrate" craft_area="workstation Quarry" craft_tool="Compressed Nitrate" craft_time="1800">
+	<ingredient name="potassiumNitratePowder" count="6000" />
+</recipe>
+<recipe name="QuarryPlatform Nugget" craft_area="workstation Quarry" craft_tool="Compressed Resources" craft_time="1800">
+	<ingredient name="scrapBrass" count="10000" />
+	<ingredient name="scrapLead" count="10000" />
+	<ingredient name="scrapIron" count="10000" />
+</recipe>
+
+<recipe name="Compressed Clay" craft_area="workstation Quarry">
+	<ingredient name="clayLump" count="500" />
+</recipe>
+<recipe name="Compressed Crushed Sand" craft_area="workstation Quarry">
+	<ingredient name="crushedSand" count="500" />
+</recipe>
+<recipe name="Compressed Brass" craft_area="workstation Quarry">
+	<ingredient name="scrapBrass" count="500" />
+</recipe>
+<recipe name="Compressed Lead" craft_area="workstation Quarry">
+	<ingredient name="scrapLead" count="500" />
+</recipe>
+<recipe name="Compressed Dirt Fragment" craft_area="workstation Quarry">
+	<ingredient name="dirtFragment" count="500" />
+</recipe>
+<recipe name="Compressed Iron" craft_area="workstation Quarry">
+	<ingredient name="scrapIron" count="500" />
+</recipe>
+<recipe name="Compressed Stone" craft_area="workstation Quarry">
+	<ingredient name="rockSmall" count="500" />
+</recipe>
+<recipe name="Compressed Coal" craft_area="workstation Quarry">
+	<ingredient name="coal" count="500" />
+</recipe>
+<recipe name="Compressed Shale" craft_area="workstation Quarry">
+	<ingredient name="oilShale" count="500" />
+</recipe>
+<recipe name="Compressed Nitrate" craft_area="workstation Quarry">
+	<ingredient name="potassiumNitratePowder" count="500" />
+</recipe>
+<recipe name="Compressed Resources" craft_area="workstation Quarry">
+	<ingredient name="clayLump" count="500" />
+	<ingredient name="scrapBrass" count="500" />
+	<ingredient name="dirtFragment" count="500" />
+	<ingredient name="rockSmall" count="500" />
+	<ingredient name="oilShale" count="500" />
+</recipe>
