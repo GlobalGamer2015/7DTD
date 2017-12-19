@@ -1,0 +1,767 @@
+<block id="0000" name="workstation Quarry">
+	<property name="CustomIcon" value="workbench" />
+	<property name="MaxDamage" value="50" />
+	<property name="Stacknumber" value="1"/>
+	<property name="StabilitySupport" value="false" />
+	<property name="DescriptionKey" value="ArmoryDesc"/>
+	<property name="Material" value="wood" />
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Crafting/workbenchPrefab"/>
+	<property name="Texture" value="282" />
+	<property name="Class" value="Workstation" />
+	<property class="Workstation">
+		<property name="Modules" value="output,input"/>
+	</property>
+	<property class="RepairItems">
+		<property name="wood" value="10" />
+	</property>
+	<property name="Group" value="Basics" />
+	<drop event="Destroy" name="workstationQuarry" count="1"/>
+</block>
+
+<block id="0000" name="QuarryPlatform Resources">
+	<property name="CustomIcon" value="cntShippingCrateShamway"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="310"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="UpgradeRated" />
+	<property name="UpgradeRated.ToBlock" value="QuarryPlatform Resources2" />
+	<property name="UpgradeRated.Rate" value="1" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />	
+	</property>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="RepairItems">
+		<property name="wood" value="1"/>
+	</property>	
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="QuarryPlatform Resources" count="1" prob="1" />
+</block>
+<block id="0000" name="QuarryPlatform Resources2">
+	<property name="CustomIcon" value="cntShippingCrateShamway" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="310"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="QuarryPlatform Resources" />
+		<property name="GrowthRate" value="120" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="QuarryResources" param1="1" param2="QuarryResources" />
+	</property>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="RepairItems">
+		<property name="wood" value="1"/>
+	</property>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="QuarryPlatform Resources" count="1" prob="1" />
+</block>
+<block id="0000" name="QuarryPlatform Clay">
+	<property name="CustomIcon" value="cntShippingCrateShamway"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="310"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="UpgradeRated" />
+	<property name="UpgradeRated.ToBlock" value="QuarryPlatform Clay2" />
+	<property name="UpgradeRated.Rate" value="1" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />	
+	</property>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="RepairItems">
+		<property name="wood" value="1"/>
+	</property>	
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="QuarryPlatform Clay" count="1" prob="1" />
+</block>
+<block id="0000" name="QuarryPlatform Clay2">
+	<property name="CustomIcon" value="cntShippingCrateShamway" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="310"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="QuarryPlatform Clay" />
+		<property name="GrowthRate" value="60" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="QuarryClay" param1="1" param2="QuarryClay" />
+	</property>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="RepairItems">
+		<property name="wood" value="1"/>
+	</property>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="QuarryPlatform Clay" count="1" prob="1" />
+</block>
+<block id="0000" name="QuarryPlatform Sand">
+	<property name="CustomIcon" value="cntShippingCrateShamway"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="310"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="UpgradeRated" />
+	<property name="UpgradeRated.ToBlock" value="QuarryPlatform Sand2" />
+	<property name="UpgradeRated.Rate" value="1" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />	
+	</property>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="RepairItems">
+		<property name="wood" value="1"/>
+	</property>	
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="QuarryPlatform Sand" count="1" prob="1" />
+</block>
+<block id="0000" name="QuarryPlatform Sand2">
+	<property name="CustomIcon" value="cntShippingCrateShamway" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="310"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="QuarryPlatform Sand" />
+		<property name="GrowthRate" value="60" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="QuarrySand" param1="1" param2="QuarrySand" />
+	</property>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="RepairItems">
+		<property name="wood" value="1"/>
+	</property>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="QuarryPlatform Sand" count="1" prob="1" />
+</block>
+<block id="0000" name="QuarryPlatform Brass">
+	<property name="CustomIcon" value="cntShippingCrateShamway"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="310"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="UpgradeRated" />
+	<property name="UpgradeRated.ToBlock" value="QuarryPlatform Brass2" />
+	<property name="UpgradeRated.Rate" value="1" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />	
+	</property>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="RepairItems">
+		<property name="wood" value="1"/>
+	</property>	
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="QuarryPlatform Brass" count="1" prob="1" />
+</block>
+<block id="0000" name="QuarryPlatform Brass2">
+	<property name="CustomIcon" value="cntShippingCrateShamway" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="310"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="QuarryPlatform Brass" />
+		<property name="GrowthRate" value="60" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="QuarryBrass" param1="1" param2="QuarryBrass" />
+	</property>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="RepairItems">
+		<property name="wood" value="1"/>
+	</property>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="QuarryPlatform Brass" count="1" prob="1" />
+</block>
+<block id="0000" name="QuarryPlatform Lead">
+	<property name="CustomIcon" value="cntShippingCrateShamway"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="310"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="UpgradeRated" />
+	<property name="UpgradeRated.ToBlock" value="QuarryPlatform Lead2" />
+	<property name="UpgradeRated.Rate" value="1" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />	
+	</property>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="RepairItems">
+		<property name="wood" value="1"/>
+	</property>	
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="QuarryPlatform Lead" count="1" prob="1" />
+</block>
+<block id="0000" name="QuarryPlatform Lead2">
+	<property name="CustomIcon" value="cntShippingCrateShamway" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="310"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="QuarryPlatform Lead" />
+		<property name="GrowthRate" value="60" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="QuarryLead" param1="1" param2="QuarryLead" />
+	</property>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="RepairItems">
+		<property name="wood" value="1"/>
+	</property>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="QuarryPlatform Lead" count="1" prob="1" />
+</block>
+<block id="0000" name="QuarryPlatform Dirt">
+	<property name="CustomIcon" value="cntShippingCrateShamway"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="310"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="UpgradeRated" />
+	<property name="UpgradeRated.ToBlock" value="QuarryPlatform Dirt2" />
+	<property name="UpgradeRated.Rate" value="1" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />	
+	</property>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="RepairItems">
+		<property name="wood" value="1"/>
+	</property>	
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="QuarryPlatform Dirt" count="1" prob="1" />
+</block>
+<block id="0000" name="QuarryPlatform Dirt2">
+	<property name="CustomIcon" value="cntShippingCrateShamway" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="310"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="QuarryPlatform Dirt" />
+		<property name="GrowthRate" value="60" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="QuarryDirt" param1="1" param2="QuarryDirt" />
+	</property>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="RepairItems">
+		<property name="wood" value="1"/>
+	</property>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="QuarryPlatform Dirt" count="1" prob="1" />
+</block>
+<block id="0000" name="QuarryPlatform Iron">
+	<property name="CustomIcon" value="cntShippingCrateShamway"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="310"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="UpgradeRated" />
+	<property name="UpgradeRated.ToBlock" value="QuarryPlatform Iron2" />
+	<property name="UpgradeRated.Rate" value="1" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />	
+	</property>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="RepairItems">
+		<property name="wood" value="1"/>
+	</property>	
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="QuarryPlatform Iron" count="1" prob="1" />
+</block>
+<block id="0000" name="QuarryPlatform Iron2">
+	<property name="CustomIcon" value="cntShippingCrateShamway" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="310"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="QuarryPlatform Iron" />
+		<property name="GrowthRate" value="60" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="QuarryIron" param1="1" param2="QuarryIron" />
+	</property>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="RepairItems">
+		<property name="wood" value="1"/>
+	</property>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="QuarryPlatform Iron" count="1" prob="1" />
+</block>
+<block id="0000" name="QuarryPlatform Stone">
+	<property name="CustomIcon" value="cntShippingCrateShamway"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="310"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="UpgradeRated" />
+	<property name="UpgradeRated.ToBlock" value="QuarryPlatform Stone2" />
+	<property name="UpgradeRated.Rate" value="1" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />	
+	</property>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="RepairItems">
+		<property name="wood" value="1"/>
+	</property>	
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="QuarryPlatform Stone" count="1" prob="1" />
+</block>
+<block id="0000" name="QuarryPlatform Stone2">
+	<property name="CustomIcon" value="cntShippingCrateShamway" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="310"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="QuarryPlatform Stone" />
+		<property name="GrowthRate" value="60" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="QuarryStone" param1="1" param2="QuarryStone" />
+	</property>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="RepairItems">
+		<property name="wood" value="1"/>
+	</property>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="QuarryPlatform Stone" count="1" prob="1" />
+</block>
+<block id="0000" name="QuarryPlatform Coal">
+	<property name="CustomIcon" value="cntShippingCrateShamway"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="310"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="UpgradeRated" />
+	<property name="UpgradeRated.ToBlock" value="QuarryPlatform Coal2" />
+	<property name="UpgradeRated.Rate" value="1" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />	
+	</property>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="RepairItems">
+		<property name="wood" value="1"/>
+	</property>	
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="QuarryPlatform Coal" count="1" prob="1" />
+</block>
+<block id="0000" name="QuarryPlatform Coal2">
+	<property name="CustomIcon" value="cntShippingCrateShamway" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="310"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="QuarryPlatform Coal" />
+		<property name="GrowthRate" value="60" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="QuarryCoal" param1="1" param2="QuarryCoal" />
+	</property>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="RepairItems">
+		<property name="wood" value="1"/>
+	</property>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="QuarryPlatform Coal" count="1" prob="1" />
+</block>
+<block id="0000" name="QuarryPlatform Shale">
+	<property name="CustomIcon" value="cntShippingCrateShamway"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="310"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="UpgradeRated" />
+	<property name="UpgradeRated.ToBlock" value="QuarryPlatform Shale2" />
+	<property name="UpgradeRated.Rate" value="1" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />	
+	</property>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="RepairItems">
+		<property name="wood" value="1"/>
+	</property>	
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="QuarryPlatform Shale" count="1" prob="1" />
+</block>
+<block id="0000" name="QuarryPlatform Shale2">
+	<property name="CustomIcon" value="cntShippingCrateShamway" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="310"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="QuarryPlatform Shale" />
+		<property name="GrowthRate" value="60" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="QuarryShale" param1="1" param2="QuarryShale" />
+	</property>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="RepairItems">
+		<property name="wood" value="1"/>
+	</property>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="QuarryPlatform Shale" count="1" prob="1" />
+</block>
+<block id="0000" name="QuarryPlatform Nitrate">
+	<property name="CustomIcon" value="cntShippingCrateShamway"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="wood_weak" />
+	<property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="310"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="UpgradeRated" />
+	<property name="UpgradeRated.ToBlock" value="QuarryPlatform Nitrate2" />
+	<property name="UpgradeRated.Rate" value="1" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />	
+	</property>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="RepairItems">
+		<property name="wood" value="1"/>
+	</property>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="QuarryPlatform Nitrate" count="1" prob="1" />
+</block>
+<block id="0000" name="QuarryPlatform Nitrate2">
+	<property name="CustomIcon" value="cntShippingCrateShamway" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="310"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="QuarryPlatform Nitrate" />
+		<property name="GrowthRate" value="60" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="QuarryNitrate" param1="1" param2="QuarryNitrate" />
+	</property>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="RepairItems">
+		<property name="wood" value="1"/>
+	</property>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="QuarryPlatform Nitrate" count="1" prob="1" />
+</block>
+<block id="0000" name="QuarryPlatform Nugget">
+	<property name="CustomIcon" value="cntShippingCrateShamway"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="310"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="UpgradeRated" />
+	<property name="UpgradeRated.ToBlock" value="QuarryPlatform Nugget2" />
+	<property name="UpgradeRated.Rate" value="1" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />	
+	</property>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="RepairItems">
+		<property name="wood" value="1"/>
+	</property>	
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="QuarryPlatform Nugget" count="1" prob="1" />
+</block>
+<block id="0000" name="QuarryPlatform Nugget2">
+	<property name="CustomIcon" value="cntShippingCrateShamway" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="310"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="QuarryPlatform Nugget" />
+		<property name="GrowthRate" value="30" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="QuarryNugget" param1="1" param2="QuarryNugget" />
+	</property>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="RepairItems">
+		<property name="wood" value="1"/>
+	</property>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="QuarryPlatform Nugget" count="1" prob="1" />
+</block>
+
+<block id="0000" name="QuarryResources">
+    <property name="Class" value="Loot" />
+	<property name="LightOpacity" value="0"/>
+    <property name="Extends" value="cntCardboardBox" />
+	<property name="CustomIcon" value="cntShippingCrateConstructionSupplies" />
+    <property name="IsTerrainDecoration" value="true" />
+    <property name="LootList" value="231" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="MaxDamage" value="20000"/>
+	<drop event="Destroy" count="0" prob="1" />
+</block>
+<block id="0000" name="QuarryClay">
+    <property name="Class" value="Loot" />
+	<property name="LightOpacity" value="0"/>
+    <property name="Extends" value="cntCardboardBox" />
+	<property name="CustomIcon" value="cntShippingCrateConstructionSupplies" />
+    <property name="IsTerrainDecoration" value="true" />
+    <property name="LootList" value="232" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="MaxDamage" value="20000"/>
+	<drop event="Destroy" count="0" prob="1" />
+</block>
+<block id="0000" name="QuarrySand">
+    <property name="Class" value="Loot" />
+	<property name="LightOpacity" value="0"/>
+    <property name="Extends" value="cntCardboardBox" />
+	<property name="CustomIcon" value="cntShippingCrateConstructionSupplies" />
+    <property name="IsTerrainDecoration" value="true" />
+    <property name="LootList" value="233" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="MaxDamage" value="20000"/>
+	<drop event="Destroy" count="0" prob="1" />
+</block>
+<block id="0000" name="QuarryBrass">
+    <property name="Class" value="Loot" />
+	<property name="LightOpacity" value="0"/>
+    <property name="Extends" value="cntCardboardBox" />
+	<property name="CustomIcon" value="cntShippingCrateConstructionSupplies" />
+    <property name="IsTerrainDecoration" value="true" />
+    <property name="LootList" value="234" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="MaxDamage" value="20000"/>
+	<drop event="Destroy" count="0" prob="1" />
+</block>
+<block id="0000" name="QuarryLead">
+    <property name="Class" value="Loot" />
+	<property name="LightOpacity" value="0"/>
+    <property name="Extends" value="cntCardboardBox" />
+	<property name="CustomIcon" value="cntShippingCrateConstructionSupplies" />
+    <property name="IsTerrainDecoration" value="true" />
+    <property name="LootList" value="235" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="MaxDamage" value="20000"/>
+	<drop event="Destroy" count="0" prob="1" />
+</block>
+<block id="0000" name="QuarryDirt">
+    <property name="Class" value="Loot" />
+	<property name="LightOpacity" value="0"/>
+    <property name="Extends" value="cntCardboardBox" />
+	<property name="CustomIcon" value="cntShippingCrateConstructionSupplies" />
+    <property name="IsTerrainDecoration" value="true" />
+    <property name="LootList" value="236" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="MaxDamage" value="20000"/>
+	<drop event="Destroy" count="0" prob="1" />
+</block>
+<block id="0000" name="QuarryIron">
+    <property name="Class" value="Loot" />
+	<property name="LightOpacity" value="0"/>
+    <property name="Extends" value="cntCardboardBox" />
+	<property name="CustomIcon" value="cntShippingCrateConstructionSupplies" />
+    <property name="IsTerrainDecoration" value="true" />
+    <property name="LootList" value="237" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="MaxDamage" value="20000"/>
+	<drop event="Destroy" count="0" prob="1" />
+</block>
+<block id="0000" name="QuarryStone">
+    <property name="Class" value="Loot" />
+	<property name="LightOpacity" value="0"/>
+    <property name="Extends" value="cntCardboardBox" />
+	<property name="CustomIcon" value="cntShippingCrateConstructionSupplies" />
+    <property name="IsTerrainDecoration" value="true" />
+    <property name="LootList" value="238" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="MaxDamage" value="20000"/>
+	<drop event="Destroy" count="0" prob="1" />
+</block>
+<block id="0000" name="QuarryCoal">
+    <property name="Class" value="Loot" />
+	<property name="LightOpacity" value="0"/>
+    <property name="Extends" value="cntCardboardBox" />
+	<property name="CustomIcon" value="cntShippingCrateConstructionSupplies" />
+    <property name="IsTerrainDecoration" value="true" />
+    <property name="LootList" value="239" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="MaxDamage" value="20000"/>
+	<drop event="Destroy" count="0" prob="1" />
+</block>
+<block id="0000" name="QuarryShale">
+    <property name="Class" value="Loot" />
+	<property name="LightOpacity" value="0"/>
+    <property name="Extends" value="cntCardboardBox" />
+	<property name="CustomIcon" value="cntShippingCrateConstructionSupplies" />
+    <property name="IsTerrainDecoration" value="true" />
+    <property name="LootList" value="240" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="MaxDamage" value="20000"/>
+	<drop event="Destroy" count="0" prob="1" />
+</block>
+<block id="0000" name="QuarryNitrate">
+    <property name="Class" value="Loot" />
+	<property name="LightOpacity" value="0"/>
+    <property name="Extends" value="cntCardboardBox" />
+	<property name="CustomIcon" value="cntShippingCrateConstructionSupplies" />
+    <property name="IsTerrainDecoration" value="true" />
+    <property name="LootList" value="241" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="MaxDamage" value="20000"/>
+	<drop event="Destroy" count="0" prob="1" />
+</block>
+<block id="0000" name="QuarryNugget">
+    <property name="Class" value="Loot" />
+	<property name="LightOpacity" value="0"/>
+    <property name="Extends" value="cntCardboardBox" />
+	<property name="CustomIcon" value="cntShippingCrateConstructionSupplies" />
+    <property name="IsTerrainDecoration" value="true" />
+    <property name="LootList" value="242" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="MaxDamage" value="20000"/>
+	<drop event="Destroy" count="0" prob="1" />
+</block>
