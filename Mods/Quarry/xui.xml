@@ -1,0 +1,8 @@
+<window_group name="workstation_workstation Quarry" controller="XUiC_WorkstationWindowGroup">
+	<window name="windowCraftingList"/>
+	<window name="craftingInfoPanel"/>
+	<window name="windowCraftingQueueQuarry"/>
+	<window name="windowOutputQuarry" />
+	<window name="windowToolsQuarry" />
+	<window name="windowNonPagingHeader" />
+</window_group>
