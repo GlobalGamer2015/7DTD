@@ -1,0 +1,714 @@
+<block id="0000" name="Fertilized Aloe">
+	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Material" value="rubble"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="200"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="UpgradeRated" />
+	<property name="UpgradeRated.ToBlock" value="Fertilized Aloe2" />
+	<property name="UpgradeRated.Rate" value="1" />
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="Fertilized Aloe" count="1" prob="1" />
+</block>
+<block id="0000" name="Fertilized Aloe2">
+	<property name="LightOpacity" value="0"/>
+	<property name="CreativeMode" value="Dev"/>
+    <property name="Material" value="rubble"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="200"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="Fertilized Aloe" />
+		<property name="GrowthRate" value="1" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="Fertilized Aloe3" param1="1" param2="Fertilized Aloe3" />
+	</property>
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="Fertilized Aloe" count="1" prob="1" />
+</block>
+<block id="0000" name="Fertilized Aloe3">
+	<property name="CustomIcon" value="fertileFarmland"/>
+	<property name="Material" value="MfertilizedFarmland"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="291"/>
+	<property name="CanMobsSpawnOn" value="false"/>
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="Fertilized Aloe3" />
+		<property name="GrowthRate" value="1" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="plantedAloe1" param1="1" param2="plantedAloe1" />
+	</property>
+	<property name="DropScale" value="2"/>
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0"/>
+</block>
+
+<block id="0000" name="Fertilized Blueberry">
+	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Material" value="rubble"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="200"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="UpgradeRated" />
+	<property name="UpgradeRated.ToBlock" value="Fertilized Blueberry2" />
+	<property name="UpgradeRated.Rate" value="1" />
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="Fertilized Blueberry" count="1" prob="1" />
+</block>
+<block id="0000" name="Fertilized Blueberry2">
+	<property name="LightOpacity" value="0"/>
+	<property name="CreativeMode" value="Dev"/>
+    <property name="Material" value="rubble"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="200"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="Fertilized Blueberry" />
+		<property name="GrowthRate" value="1" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="Fertilized Blueberry3" param1="1" param2="Fertilized Blueberry3" />
+	</property>
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="Fertilized PlantName" count="1" prob="1" />
+</block>
+<block id="0000" name="Fertilized Blueberry3">
+	<property name="CustomIcon" value="fertileFarmland"/>
+	<property name="Material" value="MfertilizedFarmland"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="291"/>
+	<property name="CanMobsSpawnOn" value="false"/>
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="Fertilized Blueberry3" />
+		<property name="GrowthRate" value="1" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="plantedBlueberry1" param1="1" param2="plantedBlueberry1" />
+	</property>
+	<property name="DropScale" value="2"/>
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0"/>
+</block>
+
+<block id="0000" name="Fertilized Yucca">
+	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Material" value="rubble"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="200"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="UpgradeRated" />
+	<property name="UpgradeRated.ToBlock" value="Fertilized Yucca2" />
+	<property name="UpgradeRated.Rate" value="1" />
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="Fertilized Yucca" count="1" prob="1" />
+</block>
+<block id="0000" name="Fertilized Yucca2">
+	<property name="LightOpacity" value="0"/>
+	<property name="CreativeMode" value="Dev"/>
+    <property name="Material" value="rubble"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="200"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="Fertilized Yucca" />
+		<property name="GrowthRate" value="1" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="Fertilized Yucca3" param1="1" param2="Fertilized Yucca3" />
+	</property>
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="Fertilized Yucca" count="1" prob="1" />
+</block>
+<block id="0000" name="Fertilized Yucca3">
+	<property name="CustomIcon" value="fertileFarmland"/>
+	<property name="Material" value="MfertilizedFarmland"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="291"/>
+	<property name="CanMobsSpawnOn" value="false"/>
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="Fertilized Yucca3" />
+		<property name="GrowthRate" value="1" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="plantedYucca1" param1="1" param2="plantedYucca1" />
+	</property>
+	<property name="DropScale" value="2"/>
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0"/>
+</block>
+
+<block id="0000" name="Fertilized Coffee">
+	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Material" value="rubble"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="200"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="UpgradeRated" />
+	<property name="UpgradeRated.ToBlock" value="Fertilized Coffee2" />
+	<property name="UpgradeRated.Rate" value="1" />
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="Fertilized Coffee" count="1" prob="1" />
+</block>
+<block id="0000" name="Fertilized Coffee2">
+	<property name="LightOpacity" value="0"/>
+	<property name="CreativeMode" value="Dev"/>
+    <property name="Material" value="rubble"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="200"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="Fertilized Coffee" />
+		<property name="GrowthRate" value="1" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="Fertilized Coffee3" param1="1" param2="Fertilized Coffee3" />
+	</property>
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="Fertilized Coffee" count="1" prob="1" />
+</block>
+<block id="0000" name="Fertilized Coffee3">
+	<property name="CustomIcon" value="fertileFarmland"/>
+	<property name="Material" value="MfertilizedFarmland"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="291"/>
+	<property name="CanMobsSpawnOn" value="false"/>
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="Fertilized Coffee3" />
+		<property name="GrowthRate" value="1" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="plantedCoffee1" param1="1" param2="plantedCoffee1" />
+	</property>
+	<property name="DropScale" value="2"/>
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0"/>
+</block>
+
+<block id="0000" name="Fertilized Corn">
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Material" value="rubble"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="200"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="UpgradeRated" />
+	<property name="UpgradeRated.ToBlock" value="Fertilized Corn2" />
+	<property name="UpgradeRated.Rate" value="1" />
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="Fertilized Corn" count="1" prob="1" />
+</block>
+<block id="0000" name="Fertilized Corn2">
+	<property name="LightOpacity" value="0"/>
+	<property name="CreativeMode" value="Dev"/>
+    <property name="Material" value="rubble"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="200"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="Fertilized Corn" />
+		<property name="GrowthRate" value="1" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="Fertilized Corn3" param1="1" param2="Fertilized Corn3" />
+	</property>
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="Fertilized Corn" count="1" prob="1" />
+</block>
+<block id="0000" name="Fertilized Corn3">
+	<property name="CustomIcon" value="fertileFarmland"/>
+	<property name="Material" value="MfertilizedFarmland"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="291"/>
+	<property name="CanMobsSpawnOn" value="false"/>
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="Fertilized Corn3" />
+		<property name="GrowthRate" value="1" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="plantedCorn1" param1="1" param2="plantedCorn1" />
+	</property>
+	<property name="DropScale" value="2"/>
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0"/>
+</block>
+
+<block id="0000" name="Fertilized Cotton">
+	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Material" value="rubble"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="200"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="UpgradeRated" />
+	<property name="UpgradeRated.ToBlock" value="Fertilized Cotton2" />
+	<property name="UpgradeRated.Rate" value="1" />
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="Fertilized Cotton" count="1" prob="1" />
+</block>
+<block id="0000" name="Fertilized Cotton2">
+	<property name="LightOpacity" value="0"/>
+	<property name="CreativeMode" value="Dev"/>
+    <property name="Material" value="rubble"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="200"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="Fertilized Cotton" />
+		<property name="GrowthRate" value="1" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="Fertilized Cotton3" param1="1" param2="Fertilized Cotton3" />
+	</property>
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="Fertilized Cotton" count="1" prob="1" />
+</block>
+<block id="0000" name="Fertilized Cotton3">
+	<property name="CustomIcon" value="fertileFarmland"/>
+	<property name="Material" value="MfertilizedFarmland"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="291"/>
+	<property name="CanMobsSpawnOn" value="false"/>
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="Fertilized Cotton3" />
+		<property name="GrowthRate" value="1" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="plantedCotton1" param1="1" param2="plantedCotton1" />
+	</property>
+	<property name="DropScale" value="2"/>
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0"/>
+</block>
+
+<block id="0000" name="Fertilized Goldenrod">
+	<property name="CustomIcon" value="plantedGoldenrod3Harvest"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Material" value="rubble"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="200"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="UpgradeRated" />
+	<property name="UpgradeRated.ToBlock" value="Fertilized Goldenrod2" />
+	<property name="UpgradeRated.Rate" value="1" />
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="Fertilized Goldenrod" count="1" prob="1" />
+</block>
+<block id="0000" name="Fertilized Goldenrod2">
+	<property name="LightOpacity" value="0"/>
+	<property name="CreativeMode" value="Dev"/>
+    <property name="Material" value="rubble"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="200"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="Fertilized Goldenrod" />
+		<property name="GrowthRate" value="1" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="Fertilized Goldenrod3" param1="1" param2="Fertilized Goldenrod3" />
+	</property>
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="Fertilized Goldenrod" count="1" prob="1" />
+</block>
+<block id="0000" name="Fertilized Goldenrod3">
+	<property name="CustomIcon" value="fertileFarmland"/>
+	<property name="Material" value="MfertilizedFarmland"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="291"/>
+	<property name="CanMobsSpawnOn" value="false"/>
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="Fertilized Goldenrod3" />
+		<property name="GrowthRate" value="1" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="plantedGoldenrod1" param1="1" param2="plantedGoldenrod1" />
+	</property>
+	<property name="DropScale" value="2"/>
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0"/>
+</block>
+
+<block id="0000" name="Fertilized Hop">
+	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Material" value="rubble"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="200"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="UpgradeRated" />
+	<property name="UpgradeRated.ToBlock" value="Fertilized Hop2" />
+	<property name="UpgradeRated.Rate" value="1" />
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="Fertilized Hop" count="1" prob="1" />
+</block>
+<block id="0000" name="Fertilized Hop2">
+	<property name="LightOpacity" value="0"/>
+	<property name="CreativeMode" value="Dev"/>
+    <property name="Material" value="rubble"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="200"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="Fertilized Hop" />
+		<property name="GrowthRate" value="1" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="Fertilized Hop3" param1="1" param2="Fertilized Hop3" />
+	</property>
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="Fertilized Hop" count="1" prob="1" />
+</block>
+<block id="0000" name="Fertilized Hop3">
+	<property name="CustomIcon" value="fertileFarmland"/>
+	<property name="Material" value="MfertilizedFarmland"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="291"/>
+	<property name="CanMobsSpawnOn" value="false"/>
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="Fertilized Hop3" />
+		<property name="GrowthRate" value="1" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="plantedHop1" param1="1" param2="plantedHop1" />
+	</property>
+	<property name="DropScale" value="2"/>
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0"/>
+</block>
+
+<block id="0000" name="Fertilized Chrysanthemum">
+	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Material" value="rubble"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="200"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="UpgradeRated" />
+	<property name="UpgradeRated.ToBlock" value="Fertilized Chrysanthemum2" />
+	<property name="UpgradeRated.Rate" value="1" />
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="Fertilized Chrysanthemum" count="1" prob="1" />
+</block>
+<block id="0000" name="Fertilized Chrysanthemum2">
+	<property name="LightOpacity" value="0"/>
+	<property name="CreativeMode" value="Dev"/>
+    <property name="Material" value="rubble"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="200"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="Fertilized Chrysanthemum" />
+		<property name="GrowthRate" value="1" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="Fertilized Chrysanthemum3" param1="1" param2="Fertilized Chrysanthemum3" />
+	</property>
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="Fertilized PlantName" count="1" prob="1" />
+</block>
+<block id="0000" name="Fertilized Chrysanthemum3">
+	<property name="CustomIcon" value="fertileFarmland"/>
+	<property name="Material" value="MfertilizedFarmland"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="291"/>
+	<property name="CanMobsSpawnOn" value="false"/>
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="Fertilized Chrysanthemum3" />
+		<property name="GrowthRate" value="1" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="plantedChrysanthemum1" param1="1" param2="plantedChrysanthemum1" />
+	</property>
+	<property name="DropScale" value="2"/>
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0"/>
+</block>
+
+<block id="0000" name="Fertilized Potato">
+	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Material" value="rubble"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="200"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="UpgradeRated" />
+	<property name="UpgradeRated.ToBlock" value="Fertilized Potato2" />
+	<property name="UpgradeRated.Rate" value="1" />
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="Fertilized Potato" count="1" prob="1" />
+</block>
+<block id="0000" name="Fertilized Potato2">
+	<property name="LightOpacity" value="0"/>
+	<property name="CreativeMode" value="Dev"/>
+    <property name="Material" value="rubble"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="200"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="Fertilized Potato" />
+		<property name="GrowthRate" value="1" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="Fertilized Potato3" param1="1" param2="Fertilized Potato3" />
+	</property>
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="Fertilized Potato" count="1" prob="1" />
+</block>
+<block id="0000" name="Fertilized Potato3">
+	<property name="CustomIcon" value="fertileFarmland"/>
+	<property name="Material" value="MfertilizedFarmland"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="291"/>
+	<property name="CanMobsSpawnOn" value="false"/>
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="Fertilized Potato3" />
+		<property name="GrowthRate" value="1" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="plantedPotato1" param1="1" param2="plantedPotato1" />
+	</property>
+	<property name="DropScale" value="2"/>
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0"/>
+</block>
+
+<block id="0000" name="Fertilized Mushroom">
+	<property name="CustomIcon" value="mushrooms"/>
+	<property name="LightOpacity" value="0"/>
+    <property name="Material" value="Mmetal_medium"/>
+	<property name="Material" value="rubble"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="200"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="UpgradeRated" />
+	<property name="UpgradeRated.ToBlock" value="Fertilized Mushroom2" />
+	<property name="UpgradeRated.Rate" value="1" />
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="Fertilized Mushroom" count="1" prob="1" />
+</block>
+<block id="0000" name="Fertilized Mushroom2">
+	<property name="LightOpacity" value="0"/>
+	<property name="CreativeMode" value="Dev"/>
+    <property name="Material" value="rubble"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="200"/>
+    <property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="Fertilized Mushroom" />
+		<property name="GrowthRate" value="1" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="Fertilized Mushroom3" param1="1" param2="Fertilized Mushroom3" />
+	</property>
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0" />
+	<drop event="Harvest" name="Fertilized Mushroom" count="1" prob="1" />
+</block>
+<block id="0000" name="Fertilized Mushroom3">
+	<property name="CustomIcon" value="fertileFarmland"/>
+	<property name="Material" value="MfertilizedFarmland"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="291"/>
+	<property name="CanMobsSpawnOn" value="false"/>
+	<property name="Class" value="PlantGrowing" />
+	<property class="PlantGrowing">
+		<property name="FertileLevel" value="0" />
+		<property name="Next" value="Fertilized Mushroom3" />
+		<property name="GrowthRate" value="1" />
+		<property name="LightLevelStay" value="0" />
+		<property name="IsRandom" value="false" />
+		<property name="IsGrowOnTopEnabled" value="true" />
+		<property name="GrowOnTop" value="plantedMushroom1" param1="1" param2="plantedMushroom1" />
+	</property>
+	<property name="DropScale" value="2"/>
+	<property name="MaxDamage" value="250"/>
+	<property name="Stacknumber" value="500"/>
+	<drop event="Destroy" count="0"/>
+</block>
