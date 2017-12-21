@@ -1,0 +1,55 @@
+<recipe name="Fertilized Aloe">
+	<ingredient name="dirtFragment" count="8" />
+	<ingredient name="fertilizer" count="1" />
+	<ingredient name="plantedAloe1" count="1" />
+</recipe>
+<recipe name="Fertilized Blueberry">
+	<ingredient name="dirtFragment" count="8" />
+	<ingredient name="fertilizer" count="1" />
+	<ingredient name="plantedBlueberry1" count="1" />
+</recipe>
+<recipe name="Fertilized Yucca">
+	<ingredient name="dirtFragment" count="8" />
+	<ingredient name="fertilizer" count="1" />
+	<ingredient name="plantedYucca1" count="1" />
+</recipe>
+<recipe name="Fertilized Coffee">
+	<ingredient name="dirtFragment" count="8" />
+	<ingredient name="fertilizer" count="1" />
+	<ingredient name="plantedCoffee1" count="1" />
+</recipe>
+<recipe name="Fertilized Corn">
+	<ingredient name="dirtFragment" count="8" />
+	<ingredient name="fertilizer" count="1" />
+	<ingredient name="plantedCorn1" count="1" />
+</recipe>
+<recipe name="Fertilized Cotton">
+	<ingredient name="dirtFragment" count="8" />
+	<ingredient name="fertilizer" count="1" />
+	<ingredient name="plantedCotton1" count="1" />
+</recipe>
+<recipe name="Fertilized Goldenrod">
+	<ingredient name="dirtFragment" count="8" />
+	<ingredient name="fertilizer" count="1" />
+	<ingredient name="plantedGoldenrod1" count="1" />
+</recipe>
+<recipe name="Fertilized Hop">
+	<ingredient name="dirtFragment" count="8" />
+	<ingredient name="fertilizer" count="1" />
+	<ingredient name="plantedHop1" count="1" />
+</recipe>
+<recipe name="Fertilized Chrysanthemum">
+	<ingredient name="dirtFragment" count="8" />
+	<ingredient name="fertilizer" count="1" />
+	<ingredient name="plantedChrysanthemum1" count="1" />
+</recipe>
+<recipe name="Fertilized Potato">
+	<ingredient name="dirtFragment" count="8" />
+	<ingredient name="fertilizer" count="1" />
+	<ingredient name="plantedPotato1" count="1" />
+</recipe>
+<recipe name="Fertilized Mushroom">
+	<ingredient name="dirtFragment" count="8" />
+	<ingredient name="fertilizer" count="1" />
+	<ingredient name="plantedMushroom1" count="1" />
+</recipe>
