@@ -1,0 +1,7 @@
+<recipe name="sniperrifle Turret" count="1" craft_area="workbench"> <!-- trap -->
+	<ingredient name="motionsensor" count="1"/>
+	<ingredient name="partsSniperRifle_barrel" count="1"/>
+	<ingredient name="partsSniperRifle_receiver" count="1"/>
+	<ingredient name="partsSniperRifle_parts" count="1"/>
+	<ingredient name="mechanicalParts" count="6"/>
+</recipe>
