@@ -269,30 +269,27 @@
 	<item name="potassiumNitratePowder" count="6000" prob="0.05"/>
 </lootgroup>
 <lootgroup name="miningSilverNugget" count="1">
-	<item name="silverNugget" count="0" prob="1.00000"/>
-	<item name="silverNugget" count="1" prob="0.00030"/>
-	<item name="silverNugget" count="2" prob="0.00029"/>
-	<item name="silverNugget" count="3" prob="0.00028"/>
-	<item name="silverNugget" count="4" prob="0.00027"/>
-	<item name="silverNugget" count="5" prob="0.00026"/>
+	<item name="silverNugget" count="1" prob="0.00005"/>
+	<item name="silverNugget" count="2" prob="0.00004"/>
+	<item name="silverNugget" count="3" prob="0.00003"/>
+	<item name="silverNugget" count="4" prob="0.00002"/>
+	<item name="silverNugget" count="5" prob="0.00001"/>
 </lootgroup>
 <lootgroup name="miningGoldNugget" count="1">
-	<item name="goldNugget" count="0" prob="1.00000"/>
-	<item name="goldNugget" count="1" prob="0.00020"/>
-	<item name="goldNugget" count="2" prob="0.00019"/>
-	<item name="goldNugget" count="3" prob="0.00018"/>
-	<item name="goldNugget" count="4" prob="0.00017"/>
-	<item name="goldNugget" count="5" prob="0.00016"/>
+	<item name="goldNugget" count="1" prob="0.00005"/>
+	<item name="goldNugget" count="2" prob="0.00004"/>
+	<item name="goldNugget" count="3" prob="0.00003"/>
+	<item name="goldNugget" count="4" prob="0.00002"/>
+	<item name="goldNugget" count="5" prob="0.00001"/>
 </lootgroup>
 <lootgroup name="miningRawDiamond" count="1">
-	<item name="rawDiamond" count="0" prob="1.00000"/>
-	<item name="rawDiamond" count="1" prob="0.00010"/>
-	<item name="rawDiamond" count="2" prob="0.00009"/>
-	<item name="rawDiamond" count="3" prob="0.00008"/>
-	<item name="rawDiamond" count="4" prob="0.00007"/>
-	<item name="rawDiamond" count="5" prob="0.00006"/>
+	<item name="rawDiamond" count="1" prob="0.00005"/>
+	<item name="rawDiamond" count="2" prob="0.00004"/>
+	<item name="rawDiamond" count="3" prob="0.00003"/>
+	<item name="rawDiamond" count="4" prob="0.00002"/>
+	<item name="rawDiamond" count="5" prob="0.00001"/>
 </lootgroup>
-<lootcontainer id="231" size="5,3" count="13" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="baseTemplate">
+<lootcontainer id="231" size="5,2" count="10" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="baseTemplate">
 	<item group="miningClayLump"/>
 	<item group="miningCrushedSand"/>
 	<item group="miningScrapBrass"/>
@@ -303,69 +300,36 @@
 	<item group="miningCoal"/>
 	<item group="miningOilShale"/>
 	<item group="miningPotassiumNitratePowder"/>
-	<item group="miningSilverNugget"/>
-	<item group="miningGoldNugget"/>
-	<item group="miningRawDiamond"/>
 </lootcontainer>
-<lootcontainer id="232" size="2,2" count="4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="baseTemplate">
+<lootcontainer id="232" size="1,1" count="2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="baseTemplate">
 	<item group="miningClayLump"/>
-	<item group="miningSilverNugget"/>
-	<item group="miningGoldNugget"/>
-	<item group="miningRawDiamond"/>
 </lootcontainer>
-<lootcontainer id="233" size="2,2" count="4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="baseTemplate">
+<lootcontainer id="233" size="1,1" count="2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="baseTemplate">
     <item group="miningCrushedSand"/>
-	<item group="miningSilverNugget"/>
-	<item group="miningGoldNugget"/>
-	<item group="miningRawDiamond"/>
 </lootcontainer>
-<lootcontainer id="234" size="2,2" count="4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="baseTemplate">
+<lootcontainer id="234" size="1,1" count="2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="baseTemplate">
     <item group="miningScrapBrass"/>
-	<item group="miningSilverNugget"/>
-	<item group="miningGoldNugget"/>
-	<item group="miningRawDiamond"/>
 </lootcontainer>
-<lootcontainer id="235" size="2,2" count="4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="baseTemplate">
+<lootcontainer id="235" size="1,1" count="2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="baseTemplate">
     <item group="miningScrapLead"/>
-	<item group="miningSilverNugget"/>
-	<item group="miningGoldNugget"/>
-	<item group="miningRawDiamond"/>
 </lootcontainer>
-<lootcontainer id="236" size="2,2" count="4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="baseTemplate">
+<lootcontainer id="236" size="1,1" count="2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="baseTemplate">
     <item group="miningDirtFragment"/>
-	<item group="miningSilverNugget"/>
-	<item group="miningGoldNugget"/>
-	<item group="miningRawDiamond"/>
 </lootcontainer>
-<lootcontainer id="237" size="2,2" count="4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="baseTemplate">
+<lootcontainer id="237" size="1,1" count="2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="baseTemplate">
     <item group="miningScrapIron"/>
-	<item group="miningSilverNugget"/>
-	<item group="miningGoldNugget"/>
-	<item group="miningRawDiamond"/>
 </lootcontainer>
-<lootcontainer id="238" size="2,2" count="4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="baseTemplate">
+<lootcontainer id="238" size="1,1" count="2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="baseTemplate">
     <item group="miningRockSmall"/>
-	<item group="miningSilverNugget"/>
-	<item group="miningGoldNugget"/>
-	<item group="miningRawDiamond"/>
 </lootcontainer>
-<lootcontainer id="239" size="2,2" count="4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="baseTemplate">
+<lootcontainer id="239" size="1,1" count="1" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="baseTemplate">
     <item group="miningCoal"/>
-	<item group="miningSilverNugget"/>
-	<item group="miningGoldNugget"/>
-	<item group="miningRawDiamond"/>
 </lootcontainer>
-<lootcontainer id="240" size="2,2" count="4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="baseTemplate">
+<lootcontainer id="240" size="1,1" count="2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="baseTemplate">
     <item group="miningOilShale"/>
-	<item group="miningSilverNugget"/>
-	<item group="miningGoldNugget"/>
-	<item group="miningRawDiamond"/>
 </lootcontainer>
-<lootcontainer id="241" size="2,2" count="4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="baseTemplate">
+<lootcontainer id="241" size="1,1" count="2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="baseTemplate">
     <item group="miningPotassiumNitratePowder"/>
-	<item group="miningSilverNugget"/>
-	<item group="miningGoldNugget"/>
-	<item group="miningRawDiamond"/>
 </lootcontainer>
 <lootcontainer id="242" size="1,3" count="3" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="30" loot_quality_template="baseTemplate">
 	<item group="miningSilverNugget"/>
