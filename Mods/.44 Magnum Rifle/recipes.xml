@@ -1,0 +1,7 @@
+<recipe name=".44 magnum rifle" count="1">
+	<ingredient name="flashlight02" count="0"/>
+	<ingredient name="partsHuntingRifle_barrel" count="1"/>
+	<ingredient name="partsHuntingRifle_stock" count="1"/>
+	<ingredient name="parts44Magnum_cylinder" count="1"/>
+	<ingredient name="parts44Magnum_parts" count="1"/>
+</recipe>
